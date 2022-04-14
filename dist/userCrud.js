@@ -5,10 +5,7 @@ export class UserCRUD {
         this.header = [];
         this.tableContainer = document.querySelector('.Table');
         this.table = document.createElement("table");
-        this.initializeheader();
-    }
-    initializeheader() {
-        console.log('hi');
+        this.read();
     }
     create() {
         this.createTable();
